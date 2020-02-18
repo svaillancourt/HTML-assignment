@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Submit a question to me</title>
+    </head>
+    <body>
+        <nav>
+            <h2>Navigation</h2>
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h1>Ask away!</h1>
+        <form action="submit.php" method="POST">
+            <br>
+            <label for="first-name">
+                first name:
+                <input type="text" name ="first-name" 
+                placeholder="Enter your team name...">     <!--Text within your text box-->
+            </label>
+            <br>
+            <label for="last-name">
+                Last Name:
+                <input type="text" name ="last-name" 
+                placeholder="Enter your last name...">     <!--Text within your text box-->
+            </label>
+            <br>
+            <label for="your-email">
+                Email:
+                <input type="text" name ="your-email" 
+                placeholder="Enter your email address...">     <!--Text within your text box-->
+            </label>
+            <br>
+            <label for="your-project">
+                What's the title of your project?
+                <input type="text" name ="your-project" 
+                placeholder="Tell me what kind of project you'd like to complete...">     <!--Text within your text box-->
+            </label>
+            <br>
+            <label for="your-description">
+                Describe your project?
+                <input type="text" name ="your-description" 
+                placeholder="Tell me about it in 400 words or less...">     <!--Text within your text box-->
+            </label>
+            <br>
+            <label for="submit">
+                <input type="checkbox" name ="submit">       <!--radio button before your text-->
+                i'd like to submit my information to "Stephane Vaillancourt" in regards to this project in compliance to the 
+                <a href="#"> Terms of Service.</a>
+            </label>
+            <br>
+            <label for ="category">
+                Pick your favorite video game genre
+                <select name="category">
+                    <option value="Action">Action</option>
+                    <option value="Action-adventure">Action-adventure</option>
+                    <option value="Adventure">Adventure</option>
+                    <option value="Role-playing">Role-playing</option>
+                    <option value="Simulation">Simulation</option>
+                    <option value="Strategy">Strategy</option>
+                    <option value="Sports">Sports</option>
+                    <option value="MMO">MMO</option>
+                    <option value="Other">Other</option>
+                </select>
+            </label>
+        </form>
+        <h2>Footer</h2>
+                <p>
+                    &copy; 2020
+                    TECHCareers.
+                    All Rights Reserved.
+                </p>
+    </body>
+</html>
