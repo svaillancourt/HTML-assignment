@@ -1,8 +1,17 @@
+
 header{
     color:white;
     background: royalblue;
 }
 body{
     color:white;
-    background: royalblue;
+    background: black;
 }
+h2{
+    color:white;
+    background: pink;
+}
+#colortest{                 /* # = id .=class */  
+    color: green;
+    background: indigo;
+ }
