@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html>
+    <header>
+        <h1>My Second Webpage!</h1>
+        <nav>
+            <h2>Navigation</h2>
+            <ul>
+                <li>
+                    <a href="./index.html" tabindex="2">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html" tabindex="3">About</a>
+                </li>
+                <li>
+                    <a href="./contact.html" tabindex="1">Contact</a>
+                </li>
+                <li>
+                    <a href="./exercise6.html" tabindex="4">Exercise 6</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
    <body>
        <form action="">
            <div>
                <label for "username"> Your username</label>
-               <input type="text" id ="username" required/>
-               <div id="username">Your username is your email address</div>
+               <input type="text" id ="username" require aria-describedby="username-tip"/>
+               <div id="username-tip" role="tooltip">Your username is your email address</div>
            </div>
            <div>
             <label for "password"> Your password</label>
-            <input type="text" id ="password" required/>
-            <div id="password">If you forgot your password, you may reset it</div>
+            <input type="text" id ="password" required aria-describedby="password-tip"/>
+            <div id="password-tip" role="tooptip">If you forgot your password, you may reset it</div>
         </div>
        </form>
    </body>
